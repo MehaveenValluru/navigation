@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .nav-bar {
+            background-color:grey;
+            color: navy-blue;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav-bar i {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .nav-bar span {
+            font-size: 12px;
+        }
+        .position-absolute {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1>EAT-SURE</H1>
+
+    <div class="nav-bar position-absolute">
+        <div>
+            <i class="home-icon">&#127968;</i><br>
+            <span>Home</span>
+        </div>
+        <div>
+            <i class="profile-icon">&#128101;</i><br>
+            <span>My-Profile</span>
+        </div>
+        <div>
+            <i class="resto-icon">&#127831;</i><br>
+            <span>Multi-Resto</span>
+        </div>
+        <div>
+            <i class="search-icon">&#128269;</i><br>
+            <span>Search</span>
+        </div>
+        <div>
+            <i class="cart-icon">&#128722;</i><br>
+            <span>Cart</span>
+        </div>
+    </div>
+</body>
+</html>
